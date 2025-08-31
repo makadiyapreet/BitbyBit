@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Monitoring - Coastal Threats</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body { background: #eaf6ff; }
+        .card { border-radius: 15px; }
+        pre { white-space: pre-wrap; }
+    </style>
+</head>
+<body>
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-12 text-center">
+            <h1 class="text-success fw-bold">🌐 Live Monitoring</h1>
+            <p class="lead">Real-Time Coastal Threat Data Feed</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mb-4">
+            <div class="card shadow border-primary">
+                <div class="card-header bg-primary text-white">
+                    <h4>Incoming Threat Alerts & System Updates</h4>
+                </div>
+                <div class="card-body">
+                    <pre id="alerts-area">Listening for alerts...</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center text-muted mt-4">
+        &copy; 2025 Coastal Threat System
+    </footer>
+</div>
+<script src="/static/live_monitoring.js"></script>
+</body>
+</html>

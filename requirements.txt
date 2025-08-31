@@ -1,0 +1,47 @@
+# Coastal Threat Alert System - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core Dependencies
+flask==2.3.3
+flask-socketio==5.3.6
+requests==2.31.0
+pandas==2.0.3
+numpy==1.26.4
+scikit-learn==1.3.0
+plotly==5.17.0
+
+# Real-time Processing
+redis==4.6.0
+websockets==11.0.3
+
+# Database
+influxdb-client==1.37.0
+psycopg2-binary==2.9.7
+pymongo==4.5.0
+
+# AI/ML Models
+tensorflow==2.18.0
+torch==2.5.1   
+prophet==1.1.4
+opencv-python==4.8.0.76
+
+# Satellite/Image Processing
+rasterio==1.3.8
+pillow==10.0.0
+geopy==2.3.0
+
+# Notifications
+twilio==8.5.0
+pyfcm==1.5.4
+
+# Utilities
+python-dotenv==1.0.0
+schedule==1.2.0
+pytz==2023.3
+colorama==0.4.6
+rich==13.5.2
+
+# Development
+pytest==7.4.2
+black==23.7.0
+flake8==6.0.0
